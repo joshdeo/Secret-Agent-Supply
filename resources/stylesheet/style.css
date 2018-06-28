@@ -96,6 +96,7 @@ body {
   height: 9rem;
   padding: 2rem 0rem;
   border: 4px solid black;
+  overflow: hidden;
 }
 
 .items div {
