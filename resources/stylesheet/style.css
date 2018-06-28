@@ -37,6 +37,7 @@ body {
 }
 
 .banner {
+  max-width: 960px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
   background-repeat: no-repeat;
   background-position: center;
@@ -48,10 +49,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 9em;
     font-family: helvetica, sans-serif;
     background-color: black;
     color: white;
-    margin-top: 9rem;
     width: 20rem;
     font-weight: bold;
 }
