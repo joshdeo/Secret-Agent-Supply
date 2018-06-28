@@ -13,10 +13,13 @@ body {
 }
 
 .sitecontainer {
+  width: 960px;
+}
+
+.heading {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 960px;
 }
 
 .heading span {
@@ -35,4 +38,28 @@ body {
 
 .banner {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.bannertext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    margin-top: 9rem;
+    width: 20rem;
+    font-weight: bold;
+}
+
+.bannertext h4{
+  font-size: 1rem;
+}
+
+.bannertext h1 {
+  font-size: 2rem;
 }
