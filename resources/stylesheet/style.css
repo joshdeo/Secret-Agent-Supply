@@ -100,15 +100,18 @@ body {
 
 .pen {
   display: block;
+  background-color: black;
   width: 30%;
 }
 
 .watch {
   display: block;
+  background-color: black;
   width: 30%;
 }
 
 .glasses {
   display: block;
+  background-color: black;
   width: 30%;
 }
