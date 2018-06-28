@@ -99,6 +99,14 @@ body {
   width: 30%;
 }
 
-.pen span {
-  
+.pen {
+  display: block;
+}
+
+.watch {
+  display: block;
+}
+
+.glasses {
+  display: block;
 }
