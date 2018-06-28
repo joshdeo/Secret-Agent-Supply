@@ -53,12 +53,52 @@ body {
     color: white;
     width: 20rem;
     font-weight: bold;
+    margin-left: 3rem;
 }
 
 .bannertext h4{
   font-size: 1rem;
+  padding-top: 2rem;
+  padding-left: 3rem;
 }
 
 .bannertext h1 {
   font-size: 2rem;
+  padding-top: 0.25rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 2rem;
+  width: 100%;
+  background-color: firebrick;
+}
+
+.navigation span {
+  color: white;
+  padding: 0.75rem 0rem;
+  font-family: helvetica, sans-serif;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20rem;
+  background-color: white;
+}
+
+.items img {
+  height: 9rem;
+  padding: 2rem 0rem;
+  border: 4px solid black;
+  width: 30%;
+}
+
+.pen span {
+  
 }
