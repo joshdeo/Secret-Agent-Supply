@@ -98,20 +98,24 @@ body {
   border: 4px solid black;
 }
 
+.items div {
+  width: 30%;
+}
+
 .pen {
   display: block;
+  color: white;
   background-color: black;
-  width: 30%;
 }
 
 .watch {
   display: block;
+  color: white;
   background-color: black;
-  width: 30%;
 }
 
 .glasses {
   display: block;
+  color: white;
   background-color: black;
-  width: 30%;
 }
