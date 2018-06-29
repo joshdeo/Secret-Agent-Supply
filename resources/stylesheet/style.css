@@ -176,7 +176,16 @@ footer {
     font-size: 0.77rem;
     font-weight: bold;
   }
+
+  .navigation {
+    display: none;
+  }
   .mobileNAV {
-    visibility: visible;
+    display: block;
+    text-align: center;
+  }
+
+  .items {
+    display
   }
 }
