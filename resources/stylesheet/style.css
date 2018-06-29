@@ -170,14 +170,8 @@ footer {
 
 @media only screen and (max-width: 1024px) {
 
-  .navigation span {
-    display: none;
-    font-family: helvetica;
-    font-size: 0.77rem;
-    font-weight: bold;
-  }
-
   .navigation {
+    text-align: center;
     display: none;
   }
   .mobileNAV {
@@ -186,6 +180,6 @@ footer {
   }
 
   .items {
-    display: 
+    display:
   }
 }
