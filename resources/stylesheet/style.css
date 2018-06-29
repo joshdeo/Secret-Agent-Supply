@@ -169,8 +169,8 @@ footer {
 }
 
 @media only screen and (max-width: 1024px) {
-  
-  .bannertext {
+
+  .navigation span {
     font-family: helvetica;
     font-size: 0.77rem;
     font-weight: bold;
