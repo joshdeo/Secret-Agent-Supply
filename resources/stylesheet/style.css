@@ -110,18 +110,21 @@ body {
 
 .pen {
   display: block;
+  text-align: center;
   color: white;
   background-color: black;
 }
 
 .watch {
   display: block;
+  text-align: center;
   color: white;
   background-color: black;
 }
 
 .glasses {
   display: block;
+  text-align: center;
   color: white;
   background-color: black;
 }
