@@ -1,4 +1,4 @@
-html {
+html {0
   font-size: 18px;
 }
 
@@ -84,6 +84,10 @@ body {
   font-family: helvetica, sans-serif;
 }
 
+.menu {
+  display: none;
+}
+
 .items {
   display: flex;
   justify-content: space-around;
@@ -153,4 +157,24 @@ body {
   justify-content: space-around;
   background-color: white;
   font-family: helvetica, sans-serif;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  background-color: black;
+  color: white;
+  font-family: helvetica, sans-serif;
+}
+
+@media only screen and {  (max-width: 1024px)
+  {
+    font-family: helvetica;
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+  .menu {
+    visibility: visible;
+  }
 }
