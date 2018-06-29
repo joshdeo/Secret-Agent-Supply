@@ -168,8 +168,9 @@ footer {
   font-family: helvetica, sans-serif;
 }
 
-@media only screen and {  (max-width: 1024px)
-  {
+@media only screen and (max-width: 1024px) {
+  
+  .bannertext {
     font-family: helvetica;
     font-size: 0.77rem;
     font-weight: bold;
