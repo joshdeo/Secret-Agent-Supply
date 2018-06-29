@@ -128,3 +128,19 @@ body {
   color: white;
   background-color: black;
 }
+
+.bars {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  color: black;
+}
+
+.bars span {
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 35%;
+  background-color: black;
+}
