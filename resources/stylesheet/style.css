@@ -56,7 +56,7 @@ body {
     margin-left: 3rem;
 }
 
-.bannertext h4{
+.bannertext h4 {
   font-size: 1rem;
   padding-top: 2rem;
   padding-left: 3rem;
@@ -179,7 +179,67 @@ footer {
     text-align: center;
   }
 
-  .items {
-    display:
+  .glassesimage {
+    display: none;
   }
+
+  .glasses {
+    display: none;
+  }
+
+  .watch .pen {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+
+  .bannertext h4{
+    font-family: helvetica;
+    font-size: 0.77rem;
+    font-weight: bold;
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
+
+  .bannertext h1 {
+    font-family: helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 2rem;
+  }
+
+  .bannertext {
+    position: relative;
+    margin-left: 13rem;
+  }
+
+  .watchimg {
+    display: none;
+  }
+
+  .watch {
+    display: none;
+  }
+
+  .pen {
+    margin-left: 18rem;
+    width: 90%;
+  }
+
+  .penimg {
+    margin-left: 18rem;
+  }
+
+  .bars {
+    width: 90%;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
